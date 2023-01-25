@@ -1,9 +1,3 @@
-# Criação do arquivo virus_genome.fasta
-with open("virus_genome.fasta", "w") as file:
-    file.write(">virus_genome\n")
-    file.write("AGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCT\n")
-
-
 # Ler o arquivo FASTA
 with open("virus_genome.fasta", "r") as file:
     genome = ""
